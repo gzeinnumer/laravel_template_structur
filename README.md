@@ -30,13 +30,13 @@
 ```
 
 ```php
-// resource/views/layouts/partials/aside.blade.php
+// resources/views/layouts/partials/aside.blade.php
 
 <p>aside</p>
 ```
 
 ```php
-// resource/views/layouts/partials/head.blade.php
+// resources/views/layouts/partials/head.blade.php
 
 <head>
     <title>App Name - @yield('title')</title>
@@ -44,7 +44,7 @@
 ```
 
 ```php
-// resource/views/layouts/partials/js.blade.php
+// resources/views/layouts/partials/js.blade.php
 
 <script></script>
 ```
@@ -52,7 +52,7 @@
 - Use Master
 
 ```php
-// resource/views/some_view.blade.php
+// resources/views/some_view.blade.php
 
 @extends('layouts.master')
  
