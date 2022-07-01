@@ -14,7 +14,7 @@
 - Setup Master
 
 ```php
-// resource/views/layouts/master.blade.php
+// resources/views/layouts/master.blade.php
 
 <html>
     @include('layouts.partials.head')
