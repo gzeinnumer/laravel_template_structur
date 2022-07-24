@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/some_view', function () {
-    return view('some_view');
+    try {
+        return view('some_view');
+    } catch (Exception $e) {
+        return $e;
+    }
 });
